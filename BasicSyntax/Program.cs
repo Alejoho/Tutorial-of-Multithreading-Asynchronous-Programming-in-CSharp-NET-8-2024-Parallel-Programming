@@ -9,15 +9,17 @@ void WriteThreadId()
     int b = 2;
     for (int i = 0; i < 100; i++)
     {
-        Console.WriteLine(Thread.CurrentThread.ManagedThreadId);
-        //Thread.Sleep(50);
+        Console.WriteLine(Thread.CurrentThread.Name);
+        Thread.Sleep(50);
     }
 }
 
 Thread thread1 = new Thread(WriteThreadId);
 Thread thread2 = new Thread(WriteThreadId);
 
-thread1.Name="Thread1";
+thread1.Name = "Thread1";
+thread2.Name = "Thread2";
+Thread.CurrentThread.Name = "Main thread";
 
 thread1.Priority = ThreadPriority.Highest;
 thread2.Priority = ThreadPriority.Lowest;
