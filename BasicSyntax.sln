@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicSyntax", "BasicSyntax\BasicSyntax.csproj", "{3DE8E52F-7DBE-4321-AC39-2BA520911B91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideConquer", "DivideConquer\DivideConquer.csproj", "{CCCF6101-A4D6-4795-8C90-2D92487D65D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{3DE8E52F-7DBE-4321-AC39-2BA520911B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DE8E52F-7DBE-4321-AC39-2BA520911B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DE8E52F-7DBE-4321-AC39-2BA520911B91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCCF6101-A4D6-4795-8C90-2D92487D65D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCCF6101-A4D6-4795-8C90-2D92487D65D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCCF6101-A4D6-4795-8C90-2D92487D65D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCCF6101-A4D6-4795-8C90-2D92487D65D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
