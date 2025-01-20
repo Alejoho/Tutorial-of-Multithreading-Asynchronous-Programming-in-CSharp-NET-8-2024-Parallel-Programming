@@ -1,5 +1,7 @@
 ﻿int counter = 0;
 
+object counterLock = new object();
+
 Thread thread1 = new Thread(IncrementCounter);
 Thread thread2 = new Thread(IncrementCounter);
 
@@ -15,7 +17,10 @@ void IncrementCounter()
 {
     for (int i = 0; i < 100000; i++)
     {
-        int temp = counter;
-        counter = temp + 1;
+        lock (counterLock)
+        {
+            int temp = counter;
+            counter = temp + 1;
+        }
     }
 }
