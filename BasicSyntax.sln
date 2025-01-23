@@ -15,7 +15,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10_-Thread Sync Techniques"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Basic Syntax", "01-Basic Syntax", "{2BFE3D0D-0479-4CFB-82F7-315818DA73F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynchronizationOverview", "SynchronizationOverview\SynchronizationOverview.csproj", "{082BDAFB-212F-44D6-9DD5-9D03630BC40B}"
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Why threading. Divide and Conquer", "04-Why threading. Divide and Conquer", "{407498EC-3EC4-43A0-A3F0-FCFAD73375AF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-Thread Sync Overview", "08-Thread Sync Overview", "{89216427-7B7C-48C8-B857-6654B84C5889}"
@@ -30,6 +29,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Why threading. Offload L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExclusiveLock", "ExclusiveLock\ExclusiveLock.csproj", "{9469EE51-C1E3-4B91-9021-B224A02AF892}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OffloadLongRunningTasks", "OffloadLongRunningTasks\OffloadLongRunningTasks.csproj", "{D8B07F24-41EB-406A-B9EC-EB7C4F494C68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,5 +53,32 @@ Global
 		{082BDAFB-212F-44D6-9DD5-9D03630BC40B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{082BDAFB-212F-44D6-9DD5-9D03630BC40B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{082BDAFB-212F-44D6-9DD5-9D03630BC40B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E0F73E4-CDF6-44C7-A78D-71AA29899C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E0F73E4-CDF6-44C7-A78D-71AA29899C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E0F73E4-CDF6-44C7-A78D-71AA29899C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E0F73E4-CDF6-44C7-A78D-71AA29899C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9469EE51-C1E3-4B91-9021-B224A02AF892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9469EE51-C1E3-4B91-9021-B224A02AF892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9469EE51-C1E3-4B91-9021-B224A02AF892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9469EE51-C1E3-4B91-9021-B224A02AF892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8B07F24-41EB-406A-B9EC-EB7C4F494C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B07F24-41EB-406A-B9EC-EB7C4F494C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B07F24-41EB-406A-B9EC-EB7C4F494C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B07F24-41EB-406A-B9EC-EB7C4F494C68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DE8E52F-7DBE-4321-AC39-2BA520911B91} = {2BFE3D0D-0479-4CFB-82F7-315818DA73F8}
+		{CCCF6101-A4D6-4795-8C90-2D92487D65D1} = {407498EC-3EC4-43A0-A3F0-FCFAD73375AF}
+		{3A4BEF2A-603A-4CD2-8D02-44B61ABAFB9F} = {6B0BA0E1-8B0D-4E95-B508-511CCC41925F}
+		{082BDAFB-212F-44D6-9DD5-9D03630BC40B} = {89216427-7B7C-48C8-B857-6654B84C5889}
+		{4E0F73E4-CDF6-44C7-A78D-71AA29899C4D} = {ED97B191-B629-4757-A810-952A7A6FF6CF}
+		{9469EE51-C1E3-4B91-9021-B224A02AF892} = {A2A1371F-3E4F-4691-948B-83D61E3964BC}
+		{D8B07F24-41EB-406A-B9EC-EB7C4F494C68} = {6D36D716-256D-46EF-BCF6-6F1E89452DA3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6CDDDE8-5DA9-459D-A99C-3841260C6085}
 	EndGlobalSection
 EndGlobal
