@@ -1,12 +1,35 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicSyntax", "BasicSyntax\BasicSyntax.csproj", "{3DE8E52F-7DBE-4321-AC39-2BA520911B91}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicSyntax", "BasicSyntax\BasicSyntax.csproj", "{3DE8E52F-7DBE-4321-AC39-2BA520911B91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideConquer", "DivideConquer\DivideConquer.csproj", "{CCCF6101-A4D6-4795-8C90-2D92487D65D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DivideConquer", "DivideConquer\DivideConquer.csproj", "{CCCF6101-A4D6-4795-8C90-2D92487D65D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServerAssigmentQuestion", "WebServerAssigmentQuestion\WebServerAssigmentQuestion.csproj", "{3A4BEF2A-603A-4CD2-8D02-44B61ABAFB9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirplaneSeatBookingQuestion", "AirplaneSeatBookingQuestion\AirplaneSeatBookingQuestion.csproj", "{3A4BEF2A-603A-4CD2-8D02-44B61ABAFB9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SynchronizationOverview", "SynchronizationOverview\SynchronizationOverview.csproj", "{082BDAFB-212F-44D6-9DD5-9D03630BC40B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10_-Thread Sync Techniques", "10_-Thread Sync Techniques", "{A2A1371F-3E4F-4691-948B-83D61E3964BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Basic Syntax", "01-Basic Syntax", "{2BFE3D0D-0479-4CFB-82F7-315818DA73F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynchronizationOverview", "SynchronizationOverview\SynchronizationOverview.csproj", "{082BDAFB-212F-44D6-9DD5-9D03630BC40B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Why threading. Divide and Conquer", "04-Why threading. Divide and Conquer", "{407498EC-3EC4-43A0-A3F0-FCFAD73375AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-Thread Sync Overview", "08-Thread Sync Overview", "{89216427-7B7C-48C8-B857-6654B84C5889}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11-Airplane seats booking Question", "11-Airplane seats booking Question", "{6B0BA0E1-8B0D-4E95-B508-511CCC41925F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-Web Server Simulation Question", "06-Web Server Simulation Question", "{ED97B191-B629-4757-A810-952A7A6FF6CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebServerSimulationQuestion", "WebServerSimulationQuestion\WebServerSimulationQuestion.csproj", "{4E0F73E4-CDF6-44C7-A78D-71AA29899C4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Why threading. Offload Long Running Tasks", "05-Why threading. Offload Long Running Tasks", "{6D36D716-256D-46EF-BCF6-6F1E89452DA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExclusiveLock", "ExclusiveLock\ExclusiveLock.csproj", "{9469EE51-C1E3-4B91-9021-B224A02AF892}"
+EndProject
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

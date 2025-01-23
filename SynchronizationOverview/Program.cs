@@ -12,6 +12,7 @@ thread1.Join();
 thread2.Join();
 
 Console.WriteLine($"Final counter value is: {counter}");
+Console.ReadLine();
 
 void IncrementCounter()
 {
