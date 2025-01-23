@@ -23,13 +23,25 @@ public partial class MainWindow : Window
 
     private void Button1_OnClick(object sender, RoutedEventArgs e)
     {
-        Thread.Sleep(2000);
-        LblMessage.Content = "First Message";
+        LblMessage.Content = "button 1 was clicked";
+        ShowMessage("First Message", 3000);
     }
 
     private void Button2_OnClick(object sender, RoutedEventArgs e)
     {
-        Thread.Sleep(3000);
-        LblMessage.Content = "Second Message";
+        LblMessage.Content = "button 2 was clicked";
+        Thread thread = new Thread(() => ShowMessage("Second Message", 5000));
+        thread.Start();
+    }
+
+    private void ShowMessage(string message, int delay)
+    {
+        Thread.Sleep(delay);
+        // This line throws this error:
+        // Unhandled exception. System.InvalidOperationException: The calling thread
+        // cannot access this object because a different thread owns it.
+        // this is because this was originally in the tutorial a WinForm app not a WPF one. 
+
+        //LblMessage.Content = message;
     }
 }

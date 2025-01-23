@@ -10,8 +10,8 @@
         <Label Content="" Name="LblMessage" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0" />
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom"
                     Margin="0,0,0,20">
-            <Button Content="Message 1" Name="Button1" Click="Button1_OnClick" Margin="10,0" />
-            <Button Content="Message 2" Name="Button2" Click="Button2_OnClick" Width="100" Margin="10,0" />
+            <Button Content="Blocking task" Name="Button1" Click="Button1_OnClick" Margin="10,0" />
+            <Button Content="Non blocking task" Name="Button2" Click="Button2_OnClick" Width="100" Margin="10,0" />
         </StackPanel>
     </Grid>
 </Window>
