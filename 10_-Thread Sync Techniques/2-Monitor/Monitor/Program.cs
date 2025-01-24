@@ -1,4 +1,6 @@
-﻿int counter = 0;
+﻿using System.Runtime.CompilerServices;
+
+int counter = 0;
 
 object counterLock = new object();
 
@@ -17,9 +19,6 @@ void IncrementCounter()
 {
     for (int i = 0; i < 100000; i++)
     {
-        // If you had two pieces of code that both would represent a critical section
-        // together you can put 2 lock using the same object. Go to the
-        // AirplaneSeatBookingQuestion project to see the example.
         Monitor.Enter(counterLock);
         try
         {
@@ -30,5 +29,16 @@ void IncrementCounter()
         {
             Monitor.Exit(counterLock);
         }
+
+        // If you want to lock a whole method you can do it by using an attribute.
+        // Go to the end to see the example.
+        //IncrementbyOne();
     }
+}
+
+[MethodImpl(MethodImplOptions.Synchronized)]
+void IncrementbyOne()
+{
+    int temp = counter;
+    counter = temp + 1;
 }

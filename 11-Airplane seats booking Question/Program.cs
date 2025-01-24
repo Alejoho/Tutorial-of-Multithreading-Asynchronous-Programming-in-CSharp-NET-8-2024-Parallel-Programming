@@ -41,9 +41,12 @@ void ProcessInput(string? input)
 {
     // Simulate processing time
     //Thread.Sleep(5000);
-    lock (requestsLock)
+
+    // These 2 locks function as if they were only one lock because they are using
+    // the same lock object
+    if (input == "b")
     {
-        if (input == "b")
+        lock (requestsLock)
         {
             if (availableSeats > 0)
             {
@@ -56,7 +59,10 @@ void ProcessInput(string? input)
                 Console.WriteLine("There's no seats available.");
             }
         }
-        else if (input == "c")
+    }
+    else if (input == "c")
+    {
+        lock (requestsLock)
         {
             if (availableSeats < maxseats)
             {
@@ -69,9 +75,9 @@ void ProcessInput(string? input)
                 Console.WriteLine("There's no booked seat to cancel.");
             }
         }
-        else
-        {
-            Console.WriteLine("Input Error");
-        }
+    }
+    else
+    {
+        Console.WriteLine("Input Error");
     }
 }
