@@ -21,29 +21,41 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Exclusive Lock", "1-Exclu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Monitor", "2-Monitor", "{A9AED39D-E5F7-40C0-A791-357EA4BD4226}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicSyntax", "01-Basic Syntax\BasicSyntax.csproj", "{995F16F6-FB00-452C-94FE-E8A1119DF619}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicSyntax", "01-Basic Syntax\BasicSyntax.csproj", "{995F16F6-FB00-452C-94FE-E8A1119DF619}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideConquer", "04-Why threading. Divide and Conquer\DivideConquer.csproj", "{FEAEA33A-3E73-4640-97BB-AC02B8D1641E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DivideConquer", "04-Why threading. Divide and Conquer\DivideConquer.csproj", "{FEAEA33A-3E73-4640-97BB-AC02B8D1641E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OffloadLongRunningTasks", "05-Why threading. Offload Long Running Tasks\OffloadLongRunningTasks.csproj", "{6878C6EA-27F4-41E3-A430-8AF40FBB05EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OffloadLongRunningTasks", "05-Why threading. Offload Long Running Tasks\OffloadLongRunningTasks.csproj", "{6878C6EA-27F4-41E3-A430-8AF40FBB05EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServerSimulationQuestion", "06-Web Server Simulation Question\WebServerSimulationQuestion.csproj", "{79BA70D7-4BA7-4570-91F1-C37EA306733C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebServerSimulationQuestion", "06-Web Server Simulation Question\WebServerSimulationQuestion.csproj", "{79BA70D7-4BA7-4570-91F1-C37EA306733C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynchronizationOverview", "08-Thread Sync Overview\SynchronizationOverview.csproj", "{78BD7FB5-5CF8-4CEA-AEB7-CBF3BE155EDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SynchronizationOverview", "08-Thread Sync Overview\SynchronizationOverview.csproj", "{78BD7FB5-5CF8-4CEA-AEB7-CBF3BE155EDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirplaneSeatBookingQuestion", "11-Airplane seats booking Question\AirplaneSeatBookingQuestion.csproj", "{5BB9E421-7420-46BD-B92F-81911199D34D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirplaneSeatBookingQuestion", "11-Airplane seats booking Question\AirplaneSeatBookingQuestion.csproj", "{5BB9E421-7420-46BD-B92F-81911199D34D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExclusiveLock", "10_-Thread Sync Techniques\1-Exclusive Lock\ExclusiveLock\ExclusiveLock.csproj", "{21724ECD-B857-40C4-B293-71C25F23B2DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExclusiveLock", "10_-Thread Sync Techniques\1-Exclusive Lock\ExclusiveLock\ExclusiveLock.csproj", "{21724ECD-B857-40C4-B293-71C25F23B2DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitor", "10_-Thread Sync Techniques\2-Monitor\Monitor\Monitor.csproj", "{3925944C-B9EF-4F50-9FBA-D4C5AF419E86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monitor", "10_-Thread Sync Techniques\2-Monitor\Monitor\Monitor.csproj", "{3925944C-B9EF-4F50-9FBA-D4C5AF419E86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitor_2", "10_-Thread Sync Techniques\2-Monitor\Monitor_2\Monitor_2.csproj", "{35D1E689-36C7-4897-851B-04244B6C09FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monitor_2", "10_-Thread Sync Techniques\2-Monitor\Monitor_2\Monitor_2.csproj", "{35D1E689-36C7-4897-851B-04244B6C09FB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Mutex", "3-Mutex", "{8D028EF6-3C89-44C5-B8E6-BA810242A822}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalMutex", "10_-Thread Sync Techniques\3-Mutex\GlobalMutex\GlobalMutex.csproj", "{EB687F5B-444B-4EAE-A629-77BFFFEBA8CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalMutex", "10_-Thread Sync Techniques\3-Mutex\GlobalMutex\GlobalMutex.csproj", "{EB687F5B-444B-4EAE-A629-77BFFFEBA8CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalMutex", "10_-Thread Sync Techniques\3-Mutex\LocalMutex\LocalMutex.csproj", "{23CAD735-1447-47A9-BD28-592755194162}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalMutex", "10_-Thread Sync Techniques\3-Mutex\LocalMutex\LocalMutex.csproj", "{23CAD735-1447-47A9-BD28-592755194162}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Reader and Writer Lock", "4-Reader and Writer Lock", "{735B4295-F544-4BED-A2D4-9F55AFFCC3AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalConfigurationCache", "10_-Thread Sync Techniques\4-Reader and Writer Lock\GlobalConfigurationCache\GlobalConfigurationCache.csproj", "{C8F42817-A29B-4986-BCC8-C78FA98B1543}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadLockExample", "10_-Thread Sync Techniques\4-Reader and Writer Lock\DeadLockExample\DeadLockExample.csproj", "{C7B8DC41-E15D-4C2A-AA0F-EAE819DB7141}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrosoftExample", "10_-Thread Sync Techniques\4-Reader and Writer Lock\MicrosoftExample\MicrosoftExample.csproj", "{A56F1BE8-D8BC-4E8F-9F2D-751AA4BE1D01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16-Semaphore", "16-Semaphore", "{85DDDC8F-A8A4-4891-87C7-4731A3A495D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semaphore", "Semaphore\Semaphore.csproj", "{BC0A5298-6971-465B-9F46-D1816CD5ECB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +107,22 @@ Global
 		{23CAD735-1447-47A9-BD28-592755194162}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23CAD735-1447-47A9-BD28-592755194162}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23CAD735-1447-47A9-BD28-592755194162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F42817-A29B-4986-BCC8-C78FA98B1543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F42817-A29B-4986-BCC8-C78FA98B1543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F42817-A29B-4986-BCC8-C78FA98B1543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F42817-A29B-4986-BCC8-C78FA98B1543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7B8DC41-E15D-4C2A-AA0F-EAE819DB7141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7B8DC41-E15D-4C2A-AA0F-EAE819DB7141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7B8DC41-E15D-4C2A-AA0F-EAE819DB7141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7B8DC41-E15D-4C2A-AA0F-EAE819DB7141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56F1BE8-D8BC-4E8F-9F2D-751AA4BE1D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56F1BE8-D8BC-4E8F-9F2D-751AA4BE1D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56F1BE8-D8BC-4E8F-9F2D-751AA4BE1D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56F1BE8-D8BC-4E8F-9F2D-751AA4BE1D01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0A5298-6971-465B-9F46-D1816CD5ECB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0A5298-6971-465B-9F46-D1816CD5ECB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0A5298-6971-465B-9F46-D1816CD5ECB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0A5298-6971-465B-9F46-D1816CD5ECB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -114,6 +142,11 @@ Global
 		{8D028EF6-3C89-44C5-B8E6-BA810242A822} = {A2A1371F-3E4F-4691-948B-83D61E3964BC}
 		{EB687F5B-444B-4EAE-A629-77BFFFEBA8CD} = {8D028EF6-3C89-44C5-B8E6-BA810242A822}
 		{23CAD735-1447-47A9-BD28-592755194162} = {8D028EF6-3C89-44C5-B8E6-BA810242A822}
+		{735B4295-F544-4BED-A2D4-9F55AFFCC3AA} = {A2A1371F-3E4F-4691-948B-83D61E3964BC}
+		{C8F42817-A29B-4986-BCC8-C78FA98B1543} = {735B4295-F544-4BED-A2D4-9F55AFFCC3AA}
+		{C7B8DC41-E15D-4C2A-AA0F-EAE819DB7141} = {735B4295-F544-4BED-A2D4-9F55AFFCC3AA}
+		{A56F1BE8-D8BC-4E8F-9F2D-751AA4BE1D01} = {735B4295-F544-4BED-A2D4-9F55AFFCC3AA}
+		{BC0A5298-6971-465B-9F46-D1816CD5ECB1} = {85DDDC8F-A8A4-4891-87C7-4731A3A495D3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6CDDDE8-5DA9-459D-A99C-3841260C6085}
