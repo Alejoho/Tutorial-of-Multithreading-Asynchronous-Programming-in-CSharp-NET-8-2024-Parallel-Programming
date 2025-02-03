@@ -69,7 +69,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalingAutoResetEventWith
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualResetEventSwitch", "16_-Thread Coordination Teachniques\3-Signaling with ManualResetEvent\ManualResetEventSwitch\ManualResetEventSwitch.csproj", "{F19B092E-6B7F-4DC4-BBEE-BD2C8E3EF7D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalinManualResetEvent", "16_-Thread Coordination Teachniques\3-Signaling with ManualResetEvent\SignalingManualResetEvent\SignalinManualResetEvent.csproj", "{6BDD54C3-F258-4947-AB05-887180D3BA3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalingManualResetEvent", "16_-Thread Coordination Teachniques\3-Signaling with ManualResetEvent\SignalingManualResetEvent\SignalingManualResetEvent.csproj", "{6BDD54C3-F258-4947-AB05-887180D3BA3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaphoreMicrosoftExample", "16_-Thread Coordination Teachniques\1-Semaphore\SemaphoreMicrosoftExample\SemaphoreMicrosoftExample.csproj", "{A8E06E64-0D49-4122-9DC1-6BC832F1C147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoResetEventMicrosoftExample", "16_-Thread Coordination Teachniques\2-Signaling with AutoResetEvent\AutoResetEventMicrosoftExample\AutoResetEventMicrosoftExample.csproj", "{4CDFF11C-308D-42B0-B1BE-A59630298E3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualResetEventMicrosoftExample", "16_-Thread Coordination Teachniques\3-Signaling with ManualResetEvent\ManualResetEventMicrosoftExample\ManualResetEventMicrosoftExample.csproj", "{D308D944-190B-4D23-B4A5-5BF666609571}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Signaling with ManualResetEventSlim", "4-Signaling with ManualResetEventSlim", "{8F0B5B5D-23B7-45EB-AA13-478A9BF1D53E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualResetEventSlimMicrosoftExample", "16_-Thread Coordination Teachniques\4-Signaling with ManualResetEventSlim\ManualResetEventSlimMicrosoftExample\ManualResetEventSlimMicrosoftExample.csproj", "{AF05D91B-BD55-47F9-A93C-1389AC56710E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Signaling with EventWaitHandle", "5-Signaling with EventWaitHandle", "{AAF90C57-BD5B-47B1-AF4B-EA5504ECAE4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventWaitHandleMicrosoftExample", "16_-Thread Coordination Teachniques\5-Signaling with EventWaitHandle\EventWaitHandleMicrosoftExample\EventWaitHandleMicrosoftExample.csproj", "{917854A9-6F95-473C-BEB5-D8408A963D46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +167,26 @@ Global
 		{6BDD54C3-F258-4947-AB05-887180D3BA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BDD54C3-F258-4947-AB05-887180D3BA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BDD54C3-F258-4947-AB05-887180D3BA3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E06E64-0D49-4122-9DC1-6BC832F1C147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E06E64-0D49-4122-9DC1-6BC832F1C147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E06E64-0D49-4122-9DC1-6BC832F1C147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E06E64-0D49-4122-9DC1-6BC832F1C147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CDFF11C-308D-42B0-B1BE-A59630298E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CDFF11C-308D-42B0-B1BE-A59630298E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CDFF11C-308D-42B0-B1BE-A59630298E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CDFF11C-308D-42B0-B1BE-A59630298E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D308D944-190B-4D23-B4A5-5BF666609571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D308D944-190B-4D23-B4A5-5BF666609571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D308D944-190B-4D23-B4A5-5BF666609571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D308D944-190B-4D23-B4A5-5BF666609571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF05D91B-BD55-47F9-A93C-1389AC56710E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF05D91B-BD55-47F9-A93C-1389AC56710E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF05D91B-BD55-47F9-A93C-1389AC56710E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF05D91B-BD55-47F9-A93C-1389AC56710E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{917854A9-6F95-473C-BEB5-D8408A963D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{917854A9-6F95-473C-BEB5-D8408A963D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{917854A9-6F95-473C-BEB5-D8408A963D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{917854A9-6F95-473C-BEB5-D8408A963D46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -184,6 +218,13 @@ Global
 		{FA1E518E-CFC7-4C69-B8AC-084A3283B175} = {D96600EF-B563-4E27-B98E-706F7BFBCD67}
 		{F19B092E-6B7F-4DC4-BBEE-BD2C8E3EF7D8} = {F6DEE2BB-A920-4DD0-9EF5-E3CF1DFC2DCC}
 		{6BDD54C3-F258-4947-AB05-887180D3BA3E} = {F6DEE2BB-A920-4DD0-9EF5-E3CF1DFC2DCC}
+		{A8E06E64-0D49-4122-9DC1-6BC832F1C147} = {722974A6-F1EC-4020-B0D7-162EC2A33495}
+		{4CDFF11C-308D-42B0-B1BE-A59630298E3D} = {D96600EF-B563-4E27-B98E-706F7BFBCD67}
+		{D308D944-190B-4D23-B4A5-5BF666609571} = {F6DEE2BB-A920-4DD0-9EF5-E3CF1DFC2DCC}
+		{8F0B5B5D-23B7-45EB-AA13-478A9BF1D53E} = {5AFA95FE-9035-46A2-ADEB-F152804221A4}
+		{AF05D91B-BD55-47F9-A93C-1389AC56710E} = {8F0B5B5D-23B7-45EB-AA13-478A9BF1D53E}
+		{AAF90C57-BD5B-47B1-AF4B-EA5504ECAE4A} = {5AFA95FE-9035-46A2-ADEB-F152804221A4}
+		{917854A9-6F95-473C-BEB5-D8408A963D46} = {AAF90C57-BD5B-47B1-AF4B-EA5504ECAE4A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6CDDDE8-5DA9-459D-A99C-3841260C6085}

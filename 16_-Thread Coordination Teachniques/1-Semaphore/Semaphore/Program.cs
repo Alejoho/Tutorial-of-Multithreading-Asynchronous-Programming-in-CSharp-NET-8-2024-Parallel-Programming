@@ -43,7 +43,6 @@ void ProcessInput(string? input)
     }
     finally
     {
-        int previousCount = semaphore.Release();
-        Console.WriteLine($"The previous count is {previousCount}");
+        Console.WriteLine($"The previous count is {semaphore.Release()}");
     }
 }
