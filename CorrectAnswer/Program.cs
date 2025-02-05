@@ -1,4 +1,7 @@
-﻿Queue<int> queue = new Queue<int>();
+﻿const int amountOfThreads = 3;
+const int amountOfItems = 10;
+
+Queue<int> queue = new Queue<int>();
 
 int threadsCompleted = 0;
 
@@ -7,7 +10,7 @@ object countLock = new object();
 using AutoResetEvent producerEvent = new AutoResetEvent(true);
 using SemaphoreSlim consumerSemaphore = new SemaphoreSlim(0, 3);
 
-for (int i = 1; i <= 3; i++)
+for (int i = 1; i <= amountOfThreads; i++)
 {
     Thread thread = new Thread(Consume);
     thread.Name = $"Consumer {i}";
@@ -23,13 +26,13 @@ while (true)
 
     if (Console.ReadLine() == "p")
     {
-        for (int i = 1; i <= 10; i++)
+        for (int i = 1; i <= amountOfItems; i++)
         {
             queue.Enqueue(i);
             Console.WriteLine($"Produced: {i}");
         }
 
-        consumerSemaphore.Release(3);
+        consumerSemaphore.Release(amountOfThreads);
     }
 }
 
@@ -49,7 +52,7 @@ void Consume()
         lock (countLock)
         {
             threadsCompleted++;
-            if (threadsCompleted == 3)
+            if (threadsCompleted == amountOfThreads)
             {
                 threadsCompleted = 0;
                 producerEvent.Set();

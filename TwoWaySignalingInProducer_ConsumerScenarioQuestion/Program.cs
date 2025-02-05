@@ -1,13 +1,14 @@
-﻿Queue<int> queue = new Queue<int>();
+﻿const int threadAmount = 10;
+
+Queue<int> queue = new Queue<int>();
 
 object lockObj = new object();
 
-const int count = 3;
 
 AutoResetEvent autoResetEvent = new AutoResetEvent(true);
-ManualResetEvent manualResetEvent = new ManualResetEvent(false);
+SemaphoreSlim semaphore = new SemaphoreSlim(0, threadAmount);
 
-for (int i = 1; i <= count; i++)
+for (int i = 1; i <= threadAmount; i++)
 {
     Thread thread = new Thread(ProcessQueue);
     thread.Name = $"T-{i}";
@@ -20,23 +21,23 @@ while (true)
 
     Console.WriteLine("Main thread start creating items.");
 
-    for (int i = 1; i <= count; i++)
+    for (int i = 1; i <= threadAmount; i++)
     {
+        Thread.Sleep(500);
         queue.Enqueue(i);
-        Console.WriteLine($"{queue.Count} items in the queue.");
+        Console.WriteLine($"{i} items in the queue.");
     }
 
     Console.WriteLine($"Write 'p' to start processing.");
-/*
-    while (Console.ReadLine() != signal)
-    {
-        Console.WriteLine($"Please, write {signal} to start processing.");
-    }
-*/
-    Thread.Sleep(30);
 
-    manualResetEvent.Set();
-    //manualResetEvent.Reset();
+    while (Console.ReadLine() != "p")
+    {
+        Console.WriteLine($"Please, write 'p' to start processing.");
+    }
+
+    Thread.Sleep(1000);
+
+    semaphore.Release(threadAmount);
 }
 
 // If I don't put a time sleep, sometimes the threads are so fast that one
@@ -46,7 +47,7 @@ void ProcessQueue()
 {
     while (true)
     {
-        manualResetEvent.WaitOne();
+        semaphore.Wait();
 
         if (queue.TryDequeue(out int item))
             Console.WriteLine($"Item {item} processed");
@@ -55,7 +56,6 @@ void ProcessQueue()
 
         if (queue.Count == 0)
         {
-            manualResetEvent.Reset();
             autoResetEvent.Set();
         }
     }
