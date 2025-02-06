@@ -85,11 +85,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Signaling with EventWaitH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventWaitHandleMicrosoftExample", "16_-Thread Coordination Teachniques\5-Signaling with EventWaitHandle\EventWaitHandleMicrosoftExample\EventWaitHandleMicrosoftExample.csproj", "{917854A9-6F95-473C-BEB5-D8408A963D46}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Two Way Signaling In Producer Consumer Scenario Question", "Two Way Signaling In Producer Consumer Scenario Question", "{61EDE4A8-7EEE-49DE-9738-8A6DF53D1594}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "19-Two Way Signaling In Producer Consumer Scenario Question", "19-Two Way Signaling In Producer Consumer Scenario Question", "{61EDE4A8-7EEE-49DE-9738-8A6DF53D1594}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoWaySignalingInProducer_ConsumerScenarioQuestion", "TwoWaySignalingInProducer_ConsumerScenarioQuestion\TwoWaySignalingInProducer_ConsumerScenarioQuestion.csproj", "{FC1545B4-107F-43C4-BC71-7A13B42FE31F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorrectAnswer", "19-Two Way Signaling In Producer Consumer Scenario Question\CorrectAnswer\CorrectAnswer.csproj", "{A1DE1757-AF6F-4435-9175-284E689F0137}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorrectAnswer", "CorrectAnswer\CorrectAnswer.csproj", "{F04437D6-9CC1-4DC0-8941-C08B7904A826}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoWaySignalingInProducer_ConsumerScenarioQuestion", "19-Two Way Signaling In Producer Consumer Scenario Question\TwoWaySignalingInProducer_ConsumerScenarioQuestion\TwoWaySignalingInProducer_ConsumerScenarioQuestion.csproj", "{AE2C80DF-E1E1-49A3-9032-CF6BC25EB5F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "21-Thread Affinity", "21-Thread Affinity", "{A770B0AE-B9D3-4CEF-8B25-29ACAD6FB6DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadAffinityWPF", "21-Thread Affinity\ThreadAffinityWPF\ThreadAffinityWPF.csproj", "{9F49ECCD-FB52-45A1-93FC-CA5E445795F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorThreadAffinity", "21-Thread Affinity\BlazorThreadAffinity\BlazorThreadAffinity.csproj", "{716ED0C2-EC88-4C1C-AA4D-CF6494E7F116}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "23-DeadLock", "23-DeadLock", "{343A10B9-764B-4FC1-A096-053049AAF916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadLockExample", "23-DeadLock\DeadLockExample.csproj", "{5C472F7E-5A37-474A-B2AE-F2DC718EDFC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -193,14 +203,26 @@ Global
 		{917854A9-6F95-473C-BEB5-D8408A963D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{917854A9-6F95-473C-BEB5-D8408A963D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{917854A9-6F95-473C-BEB5-D8408A963D46}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FC1545B4-107F-43C4-BC71-7A13B42FE31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC1545B4-107F-43C4-BC71-7A13B42FE31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC1545B4-107F-43C4-BC71-7A13B42FE31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC1545B4-107F-43C4-BC71-7A13B42FE31F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F04437D6-9CC1-4DC0-8941-C08B7904A826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F04437D6-9CC1-4DC0-8941-C08B7904A826}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F04437D6-9CC1-4DC0-8941-C08B7904A826}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F04437D6-9CC1-4DC0-8941-C08B7904A826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1DE1757-AF6F-4435-9175-284E689F0137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1DE1757-AF6F-4435-9175-284E689F0137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1DE1757-AF6F-4435-9175-284E689F0137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1DE1757-AF6F-4435-9175-284E689F0137}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE2C80DF-E1E1-49A3-9032-CF6BC25EB5F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2C80DF-E1E1-49A3-9032-CF6BC25EB5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2C80DF-E1E1-49A3-9032-CF6BC25EB5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2C80DF-E1E1-49A3-9032-CF6BC25EB5F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F49ECCD-FB52-45A1-93FC-CA5E445795F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F49ECCD-FB52-45A1-93FC-CA5E445795F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F49ECCD-FB52-45A1-93FC-CA5E445795F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F49ECCD-FB52-45A1-93FC-CA5E445795F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{716ED0C2-EC88-4C1C-AA4D-CF6494E7F116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{716ED0C2-EC88-4C1C-AA4D-CF6494E7F116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{716ED0C2-EC88-4C1C-AA4D-CF6494E7F116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{716ED0C2-EC88-4C1C-AA4D-CF6494E7F116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C472F7E-5A37-474A-B2AE-F2DC718EDFC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C472F7E-5A37-474A-B2AE-F2DC718EDFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C472F7E-5A37-474A-B2AE-F2DC718EDFC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C472F7E-5A37-474A-B2AE-F2DC718EDFC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -239,8 +261,11 @@ Global
 		{AF05D91B-BD55-47F9-A93C-1389AC56710E} = {8F0B5B5D-23B7-45EB-AA13-478A9BF1D53E}
 		{AAF90C57-BD5B-47B1-AF4B-EA5504ECAE4A} = {5AFA95FE-9035-46A2-ADEB-F152804221A4}
 		{917854A9-6F95-473C-BEB5-D8408A963D46} = {AAF90C57-BD5B-47B1-AF4B-EA5504ECAE4A}
-		{FC1545B4-107F-43C4-BC71-7A13B42FE31F} = {61EDE4A8-7EEE-49DE-9738-8A6DF53D1594}
-		{F04437D6-9CC1-4DC0-8941-C08B7904A826} = {61EDE4A8-7EEE-49DE-9738-8A6DF53D1594}
+		{A1DE1757-AF6F-4435-9175-284E689F0137} = {61EDE4A8-7EEE-49DE-9738-8A6DF53D1594}
+		{AE2C80DF-E1E1-49A3-9032-CF6BC25EB5F7} = {61EDE4A8-7EEE-49DE-9738-8A6DF53D1594}
+		{9F49ECCD-FB52-45A1-93FC-CA5E445795F2} = {A770B0AE-B9D3-4CEF-8B25-29ACAD6FB6DA}
+		{716ED0C2-EC88-4C1C-AA4D-CF6494E7F116} = {A770B0AE-B9D3-4CEF-8B25-29ACAD6FB6DA}
+		{5C472F7E-5A37-474A-B2AE-F2DC718EDFC8} = {343A10B9-764B-4FC1-A096-053049AAF916}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6CDDDE8-5DA9-459D-A99C-3841260C6085}

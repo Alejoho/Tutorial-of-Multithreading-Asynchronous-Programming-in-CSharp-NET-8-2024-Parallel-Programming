@@ -1,0 +1,47 @@
+﻿@page "/"
+@using System.Globalization
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<br/>
+<br/>
+
+@_currenTime
+
+<br/>
+<br/>
+
+<button
+    type="button"
+    class="btn btn-primary"
+    @onclick="DisplayTime">
+    Display Time
+</button>
+
+
+@code {
+
+    string _currenTime = string.Empty;
+
+    void DisplayTime()
+    {
+        Thread thread = new Thread(_ =>
+        {
+            Thread.Sleep(500);
+            _currenTime = DateTime.Now.ToString(CultureInfo.CurrentCulture);
+
+            // This next line throws an invalid operation exception
+            //StateHasChanged();
+
+            // I need to use this instead
+            base.InvokeAsync(StateHasChanged);
+        });
+
+        thread.Start();
+    }
+
+}
