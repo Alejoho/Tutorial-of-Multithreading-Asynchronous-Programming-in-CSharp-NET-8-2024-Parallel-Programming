@@ -2,8 +2,6 @@
 
 string filePath = "counter.txt";
 
-//File.Delete(filePath);
-
 using (var mutex = new Mutex(false, filePath))
 {
     mutex.WaitOne();
@@ -24,7 +22,5 @@ using (var mutex = new Mutex(false, filePath))
 
 Console.WriteLine("Process finished.");
 
-//string content = File.ReadAllText(filePath);
-//Console.WriteLine($"File content: {content}");
-
 Console.ReadLine();
+

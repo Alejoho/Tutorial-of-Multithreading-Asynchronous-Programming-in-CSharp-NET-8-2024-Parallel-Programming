@@ -22,8 +22,7 @@ void IncrementCounter()
     for (int i = 0; i < 200000; i++)
     {
         // If you had two pieces of code that both would represent a critical section
-        // together you can put 2 lock using the same object. Go to the
-        // AirplaneSeatBookingQuestion project to see the example.
+        // together you can put 2 lock using the same object. 
         lock (counterLock)
         {
             int temp = counter;

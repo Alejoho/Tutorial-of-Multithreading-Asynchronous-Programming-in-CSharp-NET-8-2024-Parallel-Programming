@@ -115,6 +115,28 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinWait", "26-Ways to make
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitUntil", "26-Ways to make a thread wait\WaitUntil\WaitUntil.csproj", "{AE6308FD-AD24-4399-9FEB-BD66A58F9B09}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "27-Returning results from a thread", "27-Returning results from a thread", "{0147F7CC-579E-44F0-A186-D8A48F5150AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReturningResultsFromAThread", "27-Returning results from a thread\ReturningResultsFromAThread\ReturningResultsFromAThread.csproj", "{8BA078B0-50AC-4FBC-8DEB-B9F74DA18D26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "28-Thread Cancellation", "28-Thread Cancellation", "{524CDD16-BE3E-4C9B-A85D-1BAED1F55EE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManuallyCancellation", "28-Thread Cancellation\ManuallyCancellation\ManuallyCancellation.csproj", "{C24493E4-6047-452E-9750-2257905A75C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectCancellationMechanism", "28-Thread Cancellation\ObjectCancellationMechanism\ObjectCancellationMechanism.csproj", "{CA780BB5-F7C3-4EC9-9432-7519619AFA67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenCancellation", "28-Thread Cancellation\TokenCancellation\TokenCancellation.csproj", "{F317FBF2-237D-43E0-AA0A-36B0DC530189}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "29-Thread Pool", "29-Thread Pool", "{10EBA716-8850-4436-9C96-C391495FA361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPool", "29-Thread Pool\ThreadPool\ThreadPool.csproj", "{8DBA04C8-01FD-4753-8869-6BED87DA6413}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30-Exception Handling", "30-Exception Handling", "{CD443375-0F3A-45CC-92F2-2F376B1806BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorrectThreadExceptionHandling", "30-Exception Handling\CorrectThreadExceptionHandling\CorrectThreadExceptionHandling.csproj", "{7E97F49A-63C1-484B-AFEB-D09D0CA90F28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "30-Exception Handling\ExceptionHandling\ExceptionHandling.csproj", "{283578B9-A3EB-4468-8546-C9BAD2866CF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -253,6 +275,34 @@ Global
 		{AE6308FD-AD24-4399-9FEB-BD66A58F9B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE6308FD-AD24-4399-9FEB-BD66A58F9B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE6308FD-AD24-4399-9FEB-BD66A58F9B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA078B0-50AC-4FBC-8DEB-B9F74DA18D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA078B0-50AC-4FBC-8DEB-B9F74DA18D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA078B0-50AC-4FBC-8DEB-B9F74DA18D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA078B0-50AC-4FBC-8DEB-B9F74DA18D26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C24493E4-6047-452E-9750-2257905A75C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24493E4-6047-452E-9750-2257905A75C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24493E4-6047-452E-9750-2257905A75C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24493E4-6047-452E-9750-2257905A75C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA780BB5-F7C3-4EC9-9432-7519619AFA67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA780BB5-F7C3-4EC9-9432-7519619AFA67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA780BB5-F7C3-4EC9-9432-7519619AFA67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA780BB5-F7C3-4EC9-9432-7519619AFA67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F317FBF2-237D-43E0-AA0A-36B0DC530189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F317FBF2-237D-43E0-AA0A-36B0DC530189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F317FBF2-237D-43E0-AA0A-36B0DC530189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F317FBF2-237D-43E0-AA0A-36B0DC530189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DBA04C8-01FD-4753-8869-6BED87DA6413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBA04C8-01FD-4753-8869-6BED87DA6413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBA04C8-01FD-4753-8869-6BED87DA6413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBA04C8-01FD-4753-8869-6BED87DA6413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E97F49A-63C1-484B-AFEB-D09D0CA90F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E97F49A-63C1-484B-AFEB-D09D0CA90F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E97F49A-63C1-484B-AFEB-D09D0CA90F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E97F49A-63C1-484B-AFEB-D09D0CA90F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{283578B9-A3EB-4468-8546-C9BAD2866CF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{283578B9-A3EB-4468-8546-C9BAD2866CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{283578B9-A3EB-4468-8546-C9BAD2866CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{283578B9-A3EB-4468-8546-C9BAD2866CF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -300,6 +350,13 @@ Global
 		{7813C06A-31D5-40C4-BC28-0CF49A8BDB03} = {D762B8F0-277C-4ADF-9CC0-779A4A211B1B}
 		{D3BDF5D9-582B-485B-B02C-4F7E096E4EC0} = {0DF395C6-1B6B-4FE3-B73C-01A322FE29C0}
 		{AE6308FD-AD24-4399-9FEB-BD66A58F9B09} = {0DF395C6-1B6B-4FE3-B73C-01A322FE29C0}
+		{8BA078B0-50AC-4FBC-8DEB-B9F74DA18D26} = {0147F7CC-579E-44F0-A186-D8A48F5150AD}
+		{C24493E4-6047-452E-9750-2257905A75C7} = {524CDD16-BE3E-4C9B-A85D-1BAED1F55EE2}
+		{CA780BB5-F7C3-4EC9-9432-7519619AFA67} = {524CDD16-BE3E-4C9B-A85D-1BAED1F55EE2}
+		{F317FBF2-237D-43E0-AA0A-36B0DC530189} = {524CDD16-BE3E-4C9B-A85D-1BAED1F55EE2}
+		{8DBA04C8-01FD-4753-8869-6BED87DA6413} = {10EBA716-8850-4436-9C96-C391495FA361}
+		{7E97F49A-63C1-484B-AFEB-D09D0CA90F28} = {CD443375-0F3A-45CC-92F2-2F376B1806BC}
+		{283578B9-A3EB-4468-8546-C9BAD2866CF8} = {CD443375-0F3A-45CC-92F2-2F376B1806BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6CDDDE8-5DA9-459D-A99C-3841260C6085}
