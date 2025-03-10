@@ -137,6 +137,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorrectThreadExceptionHandl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "30-Exception Handling\ExceptionHandling\ExceptionHandling.csproj", "{283578B9-A3EB-4468-8546-C9BAD2866CF8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "32-Basic syntax of using tasks", "32-Basic syntax of using tasks", "{721A286A-CD9D-4501-BC68-7F504B188BB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskBasycSyntax", "32-Basic syntax of using tasks\TaskBasycSyntax\TaskBasycSyntax.csproj", "{DB8B23C2-B124-40B6-9B50-FBF46668386F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "35-Returning results from a task", "35-Returning results from a task", "{6AB2A6B0-148D-4348-BF86-8A39A2C89369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReturningResultsFromATask", "35-Returning results from a task\ReturningResultsFromATask\ReturningResultsFromATask.csproj", "{60F047EF-36CB-40E7-AF7D-D463C9FF1FFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -303,6 +311,14 @@ Global
 		{283578B9-A3EB-4468-8546-C9BAD2866CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{283578B9-A3EB-4468-8546-C9BAD2866CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{283578B9-A3EB-4468-8546-C9BAD2866CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB8B23C2-B124-40B6-9B50-FBF46668386F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB8B23C2-B124-40B6-9B50-FBF46668386F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB8B23C2-B124-40B6-9B50-FBF46668386F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB8B23C2-B124-40B6-9B50-FBF46668386F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F047EF-36CB-40E7-AF7D-D463C9FF1FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F047EF-36CB-40E7-AF7D-D463C9FF1FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F047EF-36CB-40E7-AF7D-D463C9FF1FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F047EF-36CB-40E7-AF7D-D463C9FF1FFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -357,6 +373,8 @@ Global
 		{8DBA04C8-01FD-4753-8869-6BED87DA6413} = {10EBA716-8850-4436-9C96-C391495FA361}
 		{7E97F49A-63C1-484B-AFEB-D09D0CA90F28} = {CD443375-0F3A-45CC-92F2-2F376B1806BC}
 		{283578B9-A3EB-4468-8546-C9BAD2866CF8} = {CD443375-0F3A-45CC-92F2-2F376B1806BC}
+		{DB8B23C2-B124-40B6-9B50-FBF46668386F} = {721A286A-CD9D-4501-BC68-7F504B188BB5}
+		{60F047EF-36CB-40E7-AF7D-D463C9FF1FFE} = {6AB2A6B0-148D-4348-BF86-8A39A2C89369}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6CDDDE8-5DA9-459D-A99C-3841260C6085}
