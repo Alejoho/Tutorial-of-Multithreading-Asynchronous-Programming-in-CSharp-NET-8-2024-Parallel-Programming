@@ -227,6 +227,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "47-Which thread is used", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsInUseWithAsyncAndAwait", "47-Which thread is used\ThreadsInUseWithAsyncAndAwait\ThreadsInUseWithAsyncAndAwait.csproj", "{2355B76C-DBF9-49FB-AFE6-6BB7A517CAAA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "48-Continuation After Returning Value", "48-Continuation After Returning Value", "{5DFE612C-03CE-49D7-8049-F3E6D2280A9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonExtendedExample", "48-Continuation After Returning Value\PokemonExtendedExample\PokemonExtendedExample.csproj", "{FDD29B1F-655D-4B8F-9D0E-BC7D50B4E3ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -521,6 +525,10 @@ Global
 		{2355B76C-DBF9-49FB-AFE6-6BB7A517CAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2355B76C-DBF9-49FB-AFE6-6BB7A517CAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2355B76C-DBF9-49FB-AFE6-6BB7A517CAAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD29B1F-655D-4B8F-9D0E-BC7D50B4E3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD29B1F-655D-4B8F-9D0E-BC7D50B4E3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD29B1F-655D-4B8F-9D0E-BC7D50B4E3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD29B1F-655D-4B8F-9D0E-BC7D50B4E3ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -607,6 +615,7 @@ Global
 		{FAF29758-7961-4F63-9DF3-6964B5262268} = {E088287F-03B0-46A4-903E-1017C52F776A}
 		{47230335-4815-4952-B605-AF65B05AAFA5} = {E088287F-03B0-46A4-903E-1017C52F776A}
 		{2355B76C-DBF9-49FB-AFE6-6BB7A517CAAA} = {E191D1CF-1479-4D29-9570-FF00D43ABED1}
+		{FDD29B1F-655D-4B8F-9D0E-BC7D50B4E3ED} = {5DFE612C-03CE-49D7-8049-F3E6D2280A9F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6CDDDE8-5DA9-459D-A99C-3841260C6085}
