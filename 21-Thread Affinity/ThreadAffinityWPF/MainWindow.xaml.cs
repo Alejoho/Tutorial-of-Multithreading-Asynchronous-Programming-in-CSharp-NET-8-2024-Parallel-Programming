@@ -46,13 +46,15 @@ public partial class MainWindow : Window
         //LblMessage.Dispatcher.Invoke(() => LblMessage.Content = message);
 
         // But it's better use it like this
-        if (LblMessage.Dispatcher.CheckAccess())
-        {
-            LblMessage.Content = message;
-        }
-        else
-        {
-            LblMessage.Dispatcher.Invoke(() => LblMessage.Content = message);
-        }
+        // if (LblMessage.Dispatcher.CheckAccess())
+        // {
+        //     LblMessage.Content = message;
+        // }
+        // else
+        // {
+        //     LblMessage.Dispatcher.Invoke(() => LblMessage.Content = message);
+        // }
+        //     
+        LblMessage.Content = message;
     }
 }

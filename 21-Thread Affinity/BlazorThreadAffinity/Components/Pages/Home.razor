@@ -29,6 +29,10 @@ Welcome to your new app.
 
     void DisplayTime()
     {
+
+        SynchronizationContext? syncContext = SynchronizationContext.Current;
+        
+        
         Thread thread = new Thread(_ =>
         {
             Thread.Sleep(500);
