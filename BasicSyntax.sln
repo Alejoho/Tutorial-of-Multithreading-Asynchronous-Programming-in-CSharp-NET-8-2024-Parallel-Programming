@@ -145,9 +145,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "35-Returning results from a
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReturningResultsFromATask", "35-Returning results from a task\ReturningResultsFromATask\ReturningResultsFromATask.csproj", "{60F047EF-36CB-40E7-AF7D-D463C9FF1FFE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "36-Divide and Conquer With Tasks Question ", "36-Divide and Conquer With Tasks Question ", "{FF8BC709-ABB3-4FF9-845D-A0547BEE89C6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideConquer", "36-Divide and Conquer With Tasks Question \DivideConquer.csproj", "{25548274-667F-4B6E-B37F-9141409D3632}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "36-Divide and Conquer With Tasks Question", "36-Divide and Conquer With Tasks Question", "{FF8BC709-ABB3-4FF9-845D-A0547BEE89C6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "38-Wait, WaitAll, Result", "38-Wait, WaitAll, Result", "{69892F8E-7CB6-47B4-80F8-2AC0F859B3F1}"
 EndProject
@@ -230,6 +228,16 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "48-Continuation After Returning Value", "48-Continuation After Returning Value", "{5DFE612C-03CE-49D7-8049-F3E6D2280A9F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonExtendedExample", "48-Continuation After Returning Value\PokemonExtendedExample\PokemonExtendedExample.csproj", "{FDD29B1F-655D-4B8F-9D0E-BC7D50B4E3ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "49-Exception handling with async and await", "49-Exception handling with async and await", "{5E924675-6F0E-475A-995A-0059D5C0CFA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncBreakfast6", "49-Exception handling with async and await\AsyncBreakfast6\AsyncBreakfast6.csproj", "{0F51438A-4E93-4D63-8492-1037E4B42979}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorrectArgumentValidation", "49-Exception handling with async and await\CorrectArgumentValidation\CorrectArgumentValidation.csproj", "{2CE456FA-C7F8-4819-A6C1-3AA288D10738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferencesInDebugging", "49-Exception handling with async and await\DifferencesInDebugging\DifferencesInDebugging.csproj", "{0805049E-65FA-4684-99BD-3C65B5C5713E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideConquer", "36-Divide and Conquer With Tasks Question\DivideConquer.csproj", "{F0AB414B-8F7E-47B0-80AA-664C59DBC106}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -405,10 +413,6 @@ Global
 		{60F047EF-36CB-40E7-AF7D-D463C9FF1FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60F047EF-36CB-40E7-AF7D-D463C9FF1FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60F047EF-36CB-40E7-AF7D-D463C9FF1FFE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{25548274-667F-4B6E-B37F-9141409D3632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{25548274-667F-4B6E-B37F-9141409D3632}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{25548274-667F-4B6E-B37F-9141409D3632}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{25548274-667F-4B6E-B37F-9141409D3632}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2538B88A-7807-4866-8334-C6719640D99D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2538B88A-7807-4866-8334-C6719640D99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2538B88A-7807-4866-8334-C6719640D99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -529,6 +533,22 @@ Global
 		{FDD29B1F-655D-4B8F-9D0E-BC7D50B4E3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDD29B1F-655D-4B8F-9D0E-BC7D50B4E3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDD29B1F-655D-4B8F-9D0E-BC7D50B4E3ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F51438A-4E93-4D63-8492-1037E4B42979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F51438A-4E93-4D63-8492-1037E4B42979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F51438A-4E93-4D63-8492-1037E4B42979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F51438A-4E93-4D63-8492-1037E4B42979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CE456FA-C7F8-4819-A6C1-3AA288D10738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE456FA-C7F8-4819-A6C1-3AA288D10738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE456FA-C7F8-4819-A6C1-3AA288D10738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE456FA-C7F8-4819-A6C1-3AA288D10738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0805049E-65FA-4684-99BD-3C65B5C5713E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0805049E-65FA-4684-99BD-3C65B5C5713E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0805049E-65FA-4684-99BD-3C65B5C5713E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0805049E-65FA-4684-99BD-3C65B5C5713E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0AB414B-8F7E-47B0-80AA-664C59DBC106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0AB414B-8F7E-47B0-80AA-664C59DBC106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0AB414B-8F7E-47B0-80AA-664C59DBC106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0AB414B-8F7E-47B0-80AA-664C59DBC106}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -585,7 +605,6 @@ Global
 		{283578B9-A3EB-4468-8546-C9BAD2866CF8} = {CD443375-0F3A-45CC-92F2-2F376B1806BC}
 		{DB8B23C2-B124-40B6-9B50-FBF46668386F} = {721A286A-CD9D-4501-BC68-7F504B188BB5}
 		{60F047EF-36CB-40E7-AF7D-D463C9FF1FFE} = {6AB2A6B0-148D-4348-BF86-8A39A2C89369}
-		{25548274-667F-4B6E-B37F-9141409D3632} = {FF8BC709-ABB3-4FF9-845D-A0547BEE89C6}
 		{2538B88A-7807-4866-8334-C6719640D99D} = {69892F8E-7CB6-47B4-80F8-2AC0F859B3F1}
 		{1B8286D8-2F65-4F7F-B80C-7A4D02C199C2} = {69892F8E-7CB6-47B4-80F8-2AC0F859B3F1}
 		{2B89A40C-FDB9-446B-9B6C-7374DEC593F6} = {9A2DD891-25E7-4152-8FB2-E8C269513379}
@@ -616,6 +635,10 @@ Global
 		{47230335-4815-4952-B605-AF65B05AAFA5} = {E088287F-03B0-46A4-903E-1017C52F776A}
 		{2355B76C-DBF9-49FB-AFE6-6BB7A517CAAA} = {E191D1CF-1479-4D29-9570-FF00D43ABED1}
 		{FDD29B1F-655D-4B8F-9D0E-BC7D50B4E3ED} = {5DFE612C-03CE-49D7-8049-F3E6D2280A9F}
+		{0F51438A-4E93-4D63-8492-1037E4B42979} = {5E924675-6F0E-475A-995A-0059D5C0CFA8}
+		{2CE456FA-C7F8-4819-A6C1-3AA288D10738} = {5E924675-6F0E-475A-995A-0059D5C0CFA8}
+		{0805049E-65FA-4684-99BD-3C65B5C5713E} = {5E924675-6F0E-475A-995A-0059D5C0CFA8}
+		{F0AB414B-8F7E-47B0-80AA-664C59DBC106} = {FF8BC709-ABB3-4FF9-845D-A0547BEE89C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6CDDDE8-5DA9-459D-A99C-3841260C6085}
